@@ -1,0 +1,52 @@
+.button {
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: black;
+    -fx-font-size: 24;
+    -fx-padding: 16;
+    -fx-min-width: 100;
+    -fx-min-height: 100;
+}
+
+.button:focused {
+    -fx-background-color: gold;
+    -fx-text-fill: black;
+    -fx-opacity: .7;
+}
+
+.label {
+    -fx-border-color: black;
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: black;
+    -fx-font-size: 20;
+    -fx-min-width: 150;
+    -fx-padding: 10, 35, 10, 35;
+}
+
+#background {
+    -fx-background-color: lightslategray;
+}
+
+#offerPane {
+    -fx-background-image: url("mm.png");
+}
+
+#offerBox {
+    -fx-background-color: transparent;
+}
+
+#dealButton {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-weight: bolder;
+    -fx-min-width: 150;
+    -fx-min-height: 50;
+    -fx-opacity: 1;
+}
+
+#noDealButton {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-weight: bolder;
+    -fx-min-width: 150;
+    -fx-min-height: 50;
+}

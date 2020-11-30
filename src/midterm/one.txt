@@ -1,0 +1,4 @@
+378.0 240.0 circle
+252.0 226.0 circle
+448.0 43.0 circle
+82.0 102.0 circle
